@@ -16,18 +16,9 @@ Dataset on Hugging Face:
 ## Quick Start
 
 ### Requirements
-```bash
-pip install -r requirements.txt
-```
-*Note - I had an older version of `pyarrow` on my machine that didn't want to work with `datasets`, so if for some reason `pip` doesn't work for you, `conda` worked for me:*
 
-```bash
-conda create -n govreport-similarity python=3.10 numpy=1.26.4 -y
-conda activate govreport-similarity
-# Install packages in this order
-conda install pytorch torchvision torchaudio -c pytorch
-conda install pyarrow pandas scikit-learn -c conda-forge
-pip install transformers datasets model2vec click rich tqdm
+```
+conda env create --file environment.yaml
 ```
 
 ### Validate the Environment

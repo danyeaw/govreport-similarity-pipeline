@@ -1,0 +1,19 @@
+name: govreport-similarity
+channels:
+  - defaults
+  - https://github.com/conda-incubator/conda-pypi-test/releases/download
+dependencies:
+- python=3.10
+- numpy
+- pytorch
+- torchvision
+- pyarrow
+- pandas
+- scikit-learn
+- transformers
+- datasets
+- model2vec
+- click
+- rich
+- tqdm
+
